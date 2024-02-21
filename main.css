@@ -1,0 +1,62 @@
+/* primary -- crimson;
+dark -- #1F2937;
+darkdark -- #111827;
+light -- #F3F4F6; */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fira sans',sans-serif;
+}
+
+body {
+    background-color: #1F2937;
+    color: #F3f4F6;
+}
+
+.stopWatch {
+    text-align: center;
+    background-color: #111827;
+    width: 100%;
+    max-width: 380px;
+    margin: 4rem auto;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.stopWatch h1 {
+    margin-bottom: 2rem;
+}
+
+.displayTime {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actions .material-icons {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #F3f4F6;
+    background-color: crimson;
+    margin:  0 0.5rem;
+    padding: 0.5rem 1rem;
+    transition: 0.4s;
+    border-radius: 0.5rem;
+}
+
+.actions .material-icons:hover {
+    opacity: 0.7;
+}
+
+.material-icons:active {
+    background-color: #1F2937;
+}
